@@ -15,9 +15,22 @@ git push -u origin main//(主分支为main)
 git push -u origin master -f
 ```
 
+# 拉资源到本地
+
+```c++
+//1.clone项目
+git clone git@github.com:JiaoZixun/Study_Notes.git
+    
+```
+
+
+
 # 常用操作
 
 ```c++
+//本地与仓库状态不同时
+git pull --rebase origin master
+
 //查看状态
 git status
     
